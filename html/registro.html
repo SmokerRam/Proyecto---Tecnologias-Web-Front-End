@@ -85,10 +85,108 @@
 
         <!--==================== MAIN ====================-->
         <main class="main">
-            <!--==================== PORTADA ====================-->
-            <div class="py-5">
-                <div class="m-auto bg-light container">
-                    
+            <!--==================== FORMULARIO ====================-->
+            <div class="py-3 bg-light">
+                <div class="col-md-6 m-auto container">
+                    <h2 class="mb-0">Registro</h2>
+                    <hr class="mt-0">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputCorreo">Correo Electr&oacute;nico *</label>
+                            <input type="email" id="inputCorreo" class="form-control" aria-describedby="correoHelp" placeholder="Correo electr&oacute;nico">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Contrase&ntilde;a *</label>
+                            <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelp" placeholder="Contrase&ntilde;a">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputConfirmarPassword">Confirmaci&oacute;n de contrase&ntilde;a *</label>
+                            <input type="password" id="inputConfirmarPassword" class="form-control" aria-describedby="confirmarHelp" placeholder="Confirmaci&oacute;n de contrase&ntilde;a">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputGeneroFavorito">G&eacute;nero musical favorito *</label>
+                            <select id="inputGeneroFavorito" class="form-control">
+                                <option value="0" selected>Seleccione...</option>
+                                <option value="1">Bachata</option>
+                                <option value="2">Baladas</option>
+                                <option value="3">Blues</option>
+                                <option value="4">Bolero</option>
+                                <option value="5">Bosa Nova</option>
+                                <option value="6">Celta</option>
+                                <option value="7">Clásica</option>
+                                <option value="8">Corrido</option>
+                                <option value="9">Country</option>
+                                <option value="10">Criollo</option>
+                                <option value="11">Cumbia</option>
+                                <option value="12">Disco</option>
+                                <option value="13">Djent</option>
+                                <option value="14">Dubstep</option>
+                                <option value="15">Electr&oacute;nica</option>
+                                <option value="16">Electro Pop</option>
+                                <option value="17">Flamenco</option>
+                                <option value="18">Folk</option>
+                                <option value="19">Funk</option>
+                                <option value="20">Garage Rock</option>
+                                <option value="21">Gospel</option>
+                                <option value="22">Grunge</option>
+                                <option value="23">Hard Rock</option>
+                                <option value="24">Heavy Metal</option>
+                                <option value="25">Hip Hop</option>
+                                <option value="26">House</option>
+                                <option value="27">Indie</option>
+                                <option value="28">Jazz</option>
+                                <option value="29">K-pop</option>
+                                <option value="30">Merengue</option>
+                                <option value="31">Perreo</option>
+                                <option value="32">Polka</option>
+                                <option value="33">Pop</option>
+                                <option value="34">Punk</option>
+                                <option value="35">Ranchera</option>
+                                <option value="36">Rap</option>
+                                <option value="37">Rap Rock</option>
+                                <option value="38">Reggae</option>
+                                <option value="39">Reggaeton</option>
+                                <option value="40">Rock</option>
+                                <option value="41">Rock and Roll</option>
+                                <option value="42">Rumba</option>
+                                <option value="43">Rhythm and Blues</option>
+                                <option value="44">Salsa</option>
+                                <option value="45">Samba</option>
+                                <option value="46">Ska</option>
+                                <option value="47">Son</option>
+                                <option value="48">Soul</option>
+                                <option value="49">Swing</option>
+                                <option value="50">Tango</option>
+                                <option value="51">Techno</option>
+                                <option value="52">Trash metal</option>
+                                <option value="53">Trap</option>
+                                <option value="54">Trova</option>
+                                <option value="55">Vals</option>
+                                <option value="56">Vallenato</option>
+                            </select>
+                        </div>
+                        <label><b>Edad *</b></label>
+                        <div class="form-check">
+                            <input type="radio" name="inputEdad" id="inputEdad1" class="form-check-input" value="op1">
+                            <label for="inputEdad1"><b>Mayor a 20</b></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="inputEdad" id="inputEdad2" class="form-check-input" value="op2">
+                            <label for="inputEdad2"><b>20 a 40</b></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="inputEdad" id="inputEdad3" class="form-check-input" value="op3">
+                            <label for="inputEdad3"><b>Mayor a 40</b></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="inputTerminos">
+                            <label for="inputTerminos">Acepto los t&eacute;rminos de uso *</label>
+                        </div>
+                        <h6 class="mt-3" >* Campos Obligatorios</h6>
+                        <div class="mt-3">
+                            <button type="submit" class="btn btn-primary active">Continuar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>
