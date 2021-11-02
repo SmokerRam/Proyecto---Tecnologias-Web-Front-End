@@ -3,18 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--==================== BOOTSTRAP ICONS CSS ====================-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
         
         <!--==================== ICONSCOUT ICONS CSS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
 
         <!--==================== BOOTSTRAP CSS ====================-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <!--==================== FIX ERROR FAVICON ====================-->
+        <link rel="shortcut icon" href="#">
 
         <title>Responsive Portfolio Website</title>
     </head>
@@ -87,7 +87,7 @@
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== PORTADA ====================-->
-            <div class="py-3">
+            <div class="py-3 m-auto">
                 <div class="m-auto bg-light container">
                     <div class="row p-5">
                         <div class="col-md-6">
@@ -101,6 +101,29 @@
                     </div>
                 </div>
             </div>
+            
+            <!--==================== TOP ====================-->
+            <div class="py-2 m-auto">
+                <div class="container">
+                    <hr>
+                    <h2 class="text-center">Top 3</h2>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th>Nombre</th>
+                                <th>Canci&oacute;n</th>
+                              </tr>
+                            </thead>
+                            <tbody id="top">
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <!--==================== FOOTER ====================-->
@@ -115,6 +138,9 @@
             </div>
         </footer>
         
+        <!--==================== AJAX JS ====================-->
+        <script src="./assets/js/ajax.js"></script>
+
         <!--==================== BABEL JS ====================-->
         <script src="./assets/js/babel.min.js"></script>
 
@@ -129,5 +155,7 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="./assets/js/main.js"></script>
+
+        <script>cargarDatos()</script>
     </body>
 </html>
