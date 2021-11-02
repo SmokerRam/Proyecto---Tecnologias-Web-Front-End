@@ -41,3 +41,4 @@ function ordenarLista(cancionA, cancionB){
     return cancionB.reproducciones - cancionA.reproducciones
 }
 
+cargarDatos()
