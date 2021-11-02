@@ -16,7 +16,8 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="../assets/css/styles.css">
 
-        <!--==================== FIX ERROR FAVICON ====================-->
+        <!--==================== FAVICON ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
         <link rel="shortcut icon" href="#">
 
         <title>Tecnolog&iacute;as Web Front End</title>
@@ -89,9 +90,20 @@
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== PORTADA ====================-->
-            <div class="py-5">
-                <div class="m-auto bg-light container">
-                    
+            <div class="py-3 m-auto bg-light">
+                <div class="m-auto container">
+                    <h2>Canciones</h2>
+                    <!--==================== BARRA BUSQUEDA ====================-->
+                    <form>
+                        <div class="form-group">
+                            <label for="inputBusqueda" class="sr-only">Buscar</label>
+                            <input type="text" id="inputBusqueda" class="form-control" placeholder="Buscar...">
+                        </div>
+                    </form>
+                    <!--==================== CANCIONES ====================-->
+                    <div class="row" id="canciones">
+
+                    </div>
                 </div>
             </div>
         </main>
@@ -107,7 +119,7 @@
                 </div>
             </div>
         </footer>
-        
+
         <!--==================== BABEL JS ====================-->
         <script src="../assets/js/babel.min.js"></script>
 
