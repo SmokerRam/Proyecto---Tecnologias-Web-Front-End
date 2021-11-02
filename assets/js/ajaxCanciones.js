@@ -26,7 +26,7 @@ function cargarDatos(){
                                 <img src="../assets/img/icon/icon_${icon}.svg" class="w-25" alt="icono">
                             </div>
                         <div class="card-body bg-white">
-                            <h5 class="card-title">${x.nombre}</h5>
+                            <h5 class="card-title">${x.nombre.charAt(0).toUpperCase() + x.nombre.slice(1)}</h5>
                             <p class="card-text"><audio src="../assets/audio/${url}" controls></audio></p>
                         </div>
                     </div>
