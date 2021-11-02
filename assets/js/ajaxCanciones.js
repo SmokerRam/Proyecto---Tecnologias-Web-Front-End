@@ -22,7 +22,7 @@ function cargarDatos(){
                 canciones.innerHTML += `
                     <div class="col-12 col-md-4 mb-2">
                         <div class="card bg-light text-center">
-                            <div class="text-center">
+                            <div class="text-center border">
                                 <img src="../assets/img/icon/icon_${icon}.svg" class="w-25" alt="icono">
                             </div>
                         <div class="card-body bg-white">
