@@ -53,6 +53,42 @@
 			"ruta": "nueve.mp3",
 			"reproducciones": 40,
 			"icono": 2
+		},
+		{
+			"nombre": "hi, it's me",
+			"ruta": "diez.mp3",
+			"reproducciones": 150,
+			"icono": 4
+		},
+		{
+			"nombre": "love Become Law",
+			"ruta": "once.mp3",
+			"reproducciones": 35,
+			"icono": 1
+		},
+		{
+			"nombre": "gasoline",
+			"ruta": "doce.mp3",
+			"reproducciones": 100,
+			"icono": 3
+		},
+		{
+			"nombre": "outlaws & Outsiders",
+			"ruta": "trece.mp3",
+			"reproducciones": 15,
+			"icono": 2
+		},
+		{
+			"nombre": "th1rt3en or Nothing",
+			"ruta": "catorce.mp3",
+			"reproducciones": 60,
+			"icono": 3
+		},
+		{
+			"nombre": "billy Balloon Head",
+			"ruta": "quince.mp3",
+			"reproducciones": 40,
+			"icono": 4
 		}
 	]
 }
