@@ -16,7 +16,7 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="../assets/css/styles.css">
 
-        <!--==================== FAVICON ====================-->
+        <!--==================== FIX error FAVICON ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
         <link rel="shortcut icon" href="#">
 
@@ -98,12 +98,14 @@
                         <div class="form-group">
                             <label for="inputCorreo">Correo electr&oacute;nico</label>
                             <input type="email" id="inputCorreo" class="form-control" aria-describedby="correoHelp" placeholder="Correo electr&oacute;nico">
+                            <span id="errorCorreo" class="error"></span>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword">Contrase&ntilde;a</label>
                             <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelp" placeholder="Contrase&ntilde;a">
+                            <span id="errorPassword" class="error"></span>
                         </div>
-                        <button type="submit" class="btn btn-primary">Continuar</button>
+                        <button type="submit" class="btn btn-primary" onclick="return validarLogin(this.form)">Continuar</button>
                     </form>
                 </div>
             </div>
