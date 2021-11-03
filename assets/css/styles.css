@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /*==================== VARIABLES CSS ====================*/
 :root{
-    --header-height: 3rem;
-
     /*==================== COLORES ====================*/
     /*COLOR FAVORITO HUE*/
     --hue-favorito: 206;
@@ -13,47 +11,20 @@
     /*COLORES HSL*/
     --primer-color: hsl(var(--hue-favorito), 69%, 61%);
     --primer-color-secundario: hsl(var(--hue-favorito), 69%, 61%);
-    --primer-color-alt: hsl(var(--hue-favorito), 57%, 53%);
-    --primer-color-claro: hsl(var(--hue-favorito), 92%, 85%);
     --titulo-color: hsl(var(--hue-favorito), 38%, 50%);
     --texto-color: hsl(var(--hue-favorito), 8%, 45%);
-    --texto-color-claro: hsl(var(--hue-favorito), 8%, 65%);
-    --input-color: hsl(var(--hue-favorito), 70%, 96%);
     --body-color: hsl(var(--hue-favorito), 6%, 99%);
-    --container-color: #FFF;
 
     /*==================== TIPOGRAFIA ====================*/
     --body-font: 'Poppins', sans-serif;
     --body-font-secundario: 'Roboto', sans-serif;
     --body-font-terciario: 'Lato', sans-serif;
     
-    --big-font-size: 3rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-
     /*GROSOR DE LA FUENTE*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
 }
-
-/*TAMAÑO DE FUENTE PARA DISPOSITIVOS PEQUEÑOS*/
-@media (min-width:420px) and (max-width:720px){
-    :root{
-        --big-font-size: 2rem;
-        --h1-font-size: 1.5rem;
-        --h2-font-size: 1.25rem;
-        --h3-font-size: 1.125rem;
-        --normal-font-size: .938rem;
-        --small-font-size: .813rem;
-        --smaller-font-size: .75rem;
-    }
-}
-
     
 /*==================== BASE ====================*/
 *{
@@ -113,4 +84,8 @@ th, td{
 .error{
     color: red;
     font-family: var(--body-font-terciario);
+}
+
+#numTelefonico{
+    color: var(--primer-color);
 }
