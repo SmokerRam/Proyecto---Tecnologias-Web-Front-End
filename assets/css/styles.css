@@ -109,3 +109,8 @@ th, td{
 #campos{
     color: blue;
 }
+
+.error{
+    color: red;
+    font-family: var(--body-font-terciario);
+}
