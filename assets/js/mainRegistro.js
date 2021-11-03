@@ -96,7 +96,7 @@ function limpiarInputs(){
     document.getElementById("inputPassword").value = "";
     document.getElementById("inputConfirmarPassword").value = "";
     document.getElementById("inputGeneroFavorito").value = "0";
-    document.getElementById("inputEdad").value = "";
+    document.getElementsByTagName("inputEdad").value = "";
     document.getElementById("inputTerminos").value = "";
 }
 
