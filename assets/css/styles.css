@@ -1,7 +1,111 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /*==================== VARIABLES CSS ====================*/
 :root{
+    --header-height: 3rem;
+
+    /*==================== COLORES ====================*/
+    /*COLOR FAVORITO HUE*/
+    --hue-favorito: 206;
+
+    /*COLORES HSL*/
+    --primer-color: hsl(var(--hue-favorito), 69%, 61%);
+    --primer-color-secundario: hsl(var(--hue-favorito), 69%, 61%);
+    --primer-color-alt: hsl(var(--hue-favorito), 57%, 53%);
+    --primer-color-claro: hsl(var(--hue-favorito), 92%, 85%);
+    --titulo-color: hsl(var(--hue-favorito), 38%, 50%);
+    --texto-color: hsl(var(--hue-favorito), 8%, 45%);
+    --texto-color-claro: hsl(var(--hue-favorito), 8%, 65%);
+    --input-color: hsl(var(--hue-favorito), 70%, 96%);
+    --body-color: hsl(var(--hue-favorito), 6%, 99%);
+    --container-color: #FFF;
+
+    /*==================== TIPOGRAFIA ====================*/
+    --body-font: 'Poppins', sans-serif;
+    --body-font-secundario: 'Roboto', sans-serif;
+    --body-font-terciario: 'Lato', sans-serif;
     
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    /*GROSOR DE LA FUENTE*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+}
+
+/*TAMAÑO DE FUENTE PARA DISPOSITIVOS PEQUEÑOS*/
+@media (min-width:420px) and (max-width:720px){
+    :root{
+        --big-font-size: 2rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1.125rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .813rem;
+        --smaller-font-size: .75rem;
+    }
+}
+
+    
+/*==================== BASE ====================*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--texto-color);
+}
+
+h1,h2,h3,h4{
+    color: var(--titulo-color);
+    font-weight: var(--font-semi-bold);
+}
+
+h5,h6{
+    font-family: var(--body-font-secundario);
+    color: var(--titulo-color);
+    font-weight: var(--font-semi-bold);
+}
+
+label, p{
+    font-family: var(--body-font-secundario);
+    color: var(--titulo-color);
+}
+
+th, td{
+    font-family: var(--body-font-terciario);
+}
+
+#portada{
+    background-color: hsl(206, 6%, 89%)
+}
+
+#tituloLogo{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+#barra{
+    font-family: var(--body-font-secundario);
+}
+
+#campos{
+    color: blue;
 }
