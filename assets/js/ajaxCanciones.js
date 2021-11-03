@@ -1,5 +1,5 @@
 // <!--==================== CONFIRMACION FUNCIONALIDAD ARCHIVO ====================--> //
-console.log("Archivo Ajax Cargado Correctamente");
+console.log("Archivo Ajax Canciones Cargado Correctamente");
 
 // <!--==================== CANCIONES ====================--> //
 function cargarDatos(){

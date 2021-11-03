@@ -1,5 +1,5 @@
 // <!--==================== CONFIRMACION FUNCIONALIDAD ARCHIVO ====================--> //
-console.log("Archivo Ajax Cargado Correctamente");
+console.log("Archivo Ajax Top Cargado Correctamente");
 
 // <!--==================== TOP 3 ====================--> //
 function cargarDatos(){
