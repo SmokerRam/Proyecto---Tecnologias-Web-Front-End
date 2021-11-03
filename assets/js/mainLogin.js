@@ -27,15 +27,6 @@ function validarLogin(formulario){
         
             return false;
         }
-
-        else if (!formulario.inputCorreo.value.trim().includes('@')) {
-            limpiarErrores();
-            document.getElementById("errorCorreo").innerText = "El correo electrónico debe contener el caracter '@'.";
-            document.getElementById("inputCorreo").value = "";
-            formulario.inputCorreo.focus();    
-        
-            return false;
-        } 
     }
 
     if (formulario.inputPassword.value.trim().length == 0){
