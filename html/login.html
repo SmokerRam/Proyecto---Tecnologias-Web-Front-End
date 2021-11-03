@@ -29,7 +29,7 @@
             <!--==================== NAV ====================-->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/img/logo.png" alt=""><h2 class="d-inline pl-1">OYE</h2>
+                    <img src="../assets/img/logo.png" alt="logo"><h2 class="d-inline" id="tituloLogo">OYE</h2>
                 </a>
                 <button class="navbar-toggler" 
                 type="button" 
@@ -97,12 +97,12 @@
                     <form>
                         <div class="form-group">
                             <label for="inputCorreo">Correo electr&oacute;nico</label>
-                            <input type="email" id="inputCorreo" class="form-control" aria-describedby="correoHelp" placeholder="Correo electr&oacute;nico">
+                            <input type="email" id="inputCorreo" class="form-control" aria-describedby="correoHelp" placeholder="Correo electr&oacute;nico" autocomplete="off">
                             <span id="errorCorreo" class="error"></span>
                         </div>
                         <div class="form-group">
                             <label for="inputPassword">Contrase&ntilde;a</label>
-                            <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelp" placeholder="Contrase&ntilde;a">
+                            <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelp" placeholder="Contrase&ntilde;a" autocomplete="off">
                             <span id="errorPassword" class="error"></span>
                         </div>
                         <button type="submit" class="btn btn-primary" onclick="return validarLogin(this.form)">Continuar</button>
